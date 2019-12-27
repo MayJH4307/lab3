@@ -8,11 +8,11 @@ int main(){
     c = a/b;
     ans = 0;
     while(b<70){
-        cout << ans+c ;
+        cout << ans+c << " " ;
         ans = ans+c;
         b = b+1;
 
     }
-    cout << ans ;
+    cout << "Ans = " << ans ;
     return 0;
 }
