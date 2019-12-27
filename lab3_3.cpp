@@ -2,8 +2,17 @@
 using namespace std;
 
 int main(){
-    int a;
-    a = 5;
-    cout << a;
+    float a,b,ans,c;
+    a = 1;
+    b = 2;
+    c = a/b;
+    ans = 0;
+    while(b<70){
+        cout << ans+c ;
+        ans = ans+c;
+        b = b+1;
+
+    }
+    cout << ans ;
     return 0;
 }
