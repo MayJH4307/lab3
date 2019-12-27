@@ -4,6 +4,6 @@ using namespace std;
 int main(){
     int a;
     a = 5;
-    jjjj
-    jhhjhvjhg
+    cout << a;
+    return 0;
 }
