@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    float a,b,c,ans;
+    float a,b,c,ans ;
     a=1;
     b=2;
     c=a/b;
