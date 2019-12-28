@@ -2,8 +2,8 @@
 using namespace std;
 
 int main(){
-    char text1,text2,count ;
-    int N ;
+    string text1,text2 ;
+    int N,count ;
     cout << "Enter the first text : ";
     cin >> text1;
 
