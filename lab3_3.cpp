@@ -2,17 +2,26 @@
 using namespace std;
 
 int main(){
-    float a,b,ans,c;
-    a = 1;
-    b = 2;
-    c = a/b;
-    ans = 0;
-    while(b<70){
-        cout << ans+c << " " ;
-        ans = ans+c;
-        b = b+1;
+    char text1,text2,count;
+    int N;
+    cout << "Enter the first text : ";
+    cin >> text1;
 
+    cout << "Enter the second text : ";
+    cin >> text2;
+
+    cout << "Enter N : ";
+    cin >> N;
+
+    count = 0;
+
+    while (count < N){
+        if (count%2 == 0){
+            cout << text1 << " ";
+        }else{
+            cout << text2 << " ";
+        }
+        count = count + 1;
     }
-    cout << "Ans = " << ans ;
     return 0;
 }
