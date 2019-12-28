@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    char text1,text2,count;
+    char text1,text2,count ;
     int N;
     cout << "Enter the first text : ";
     cin >> text1;
