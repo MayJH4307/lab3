@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     char text1,text2,count;
-    int N;
+    int N ;
     cout << "Enter the first text : ";
     cin >> text1;
 
